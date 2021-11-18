@@ -6,6 +6,10 @@ body {
   font-weight: 400;
   color:white
 }
+a div ul:visited{
+  color: red;
+
+}
 .container {
   width: 85%;
   margin: 0 auto;
@@ -77,15 +81,15 @@ nav a:hover::before{
 /* .left-p */
 
 .article1{
-  /* size: 3rem; */
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* boder: solid white 5 px; */
+  position:relative;
 }
 
 img{
-  
+width: 30%;
 }
 
 
