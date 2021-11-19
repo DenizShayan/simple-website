@@ -9,13 +9,13 @@ body {
   font-weight: 400;
   color: white;
 }
-a div ul:visited {
-  color: red;
+a:visited {
+  color: rgb(149, 149, 149);
 }
-.container {
-  width: 85%;
-  margin: 0 auto;
-}
+/* .container {
+  width: 100%;
+  margin: auto;
+} */
 header {
   background-color: rgba(156, 40, 191, 0.879);
 }
@@ -25,11 +25,8 @@ header::after {
   clear: both;
 }
 
-/* div{
-  display: flex;
-} */
 nav {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
 }
@@ -42,21 +39,21 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
+  /* display: inline-block; */
   margin-left: 100px;
   padding: 10px;
   /* justify-content: space-evenly; */
   /* margin: 0; */
-  padding-top: 15px;
-  padding-bottom: 20px;
-  position: relative;
+  /* padding-top: 15px; */
+  /* padding-bottom: 20px; */
+  /* position: relative; */
 }
 
-nav a {
+nav ul li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1rem;
 }
 nav a:hover {
   color: #000;
@@ -82,11 +79,11 @@ nav a:hover::before {
 /* .left-p */
 
 .article1 {
-  display: flex;
+  /* display: flex; */
   padding-top: 1rem;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* position: relative; */
   border: 1px solid black;
   max-width: 70%;
   margin-left: auto;
@@ -95,26 +92,38 @@ nav a:hover::before {
 
 img {
   width: 50%;
-  
 }
 
 .article2 {
   display: flex;
   /* background-color: #003049; */
-  width: 90%;
-  height: 200px;
-  padding-top: 5px;
+  /* width: 90% ; */
+  /* height: 200px; */
+  padding-top: 1em;
   max-width: 70%;
   margin-left: auto;
   margin-right: auto;
   /* margin: auto; */
   /* border: 1px solid #d32c0e; */
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .description-a {
   color: red;
+  background-color: #444;
+  padding: .5em;
+  border-radius: .5em;
+  text-decoration: none;
+}
+
+.description-section{
+  border: red solid 1px;
+  background-color: khaki;
+  /* justify-content: space-between; */
+  margin: 20px;
+  padding:1em;
+  border-radius: .5em;
 }
 
 /* main */
