@@ -130,6 +130,7 @@ img {
 #article-rules {
   display: flex;
   /* flex-wrap: wrap; */
+  justify-content: space-between;
 }
 
 .main-a {
