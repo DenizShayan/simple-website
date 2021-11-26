@@ -21,7 +21,7 @@ header::after {
   display: table;
   clear: both;
 }
-
+/* nav */
 nav {
   /* display: flex; */
   justify-content: space-between;
@@ -127,11 +127,10 @@ img {
   display: flex;
   /* flex-wrap: wrap; */
   /* justify-content: space-around; */
-
 }
 
-.rules-section{
-  display:inline-block;
+.rules-section {
+  display: inline-block;
 }
 
 .main-a {
@@ -145,10 +144,20 @@ img {
   flex-wrap: wrap;
 } */
 
-.rules-image{
+.rules-image {
   display: flex;
   flex-wrap: wrap;
+}
 
+/* section-table */
+.article4table {
+  display: flex;
+  /* align-items: center; */
+  /* justify-items: center; */
+  justify-content: space-around;
+  padding-top: .5em;
 }
 
 /* main */
+
+/* footer */
